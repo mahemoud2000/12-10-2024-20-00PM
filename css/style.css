@@ -483,13 +483,21 @@ button:hover {
     display: none;
 }
 
+section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 50px;
+    /* background-color: var(--subColor); */
+    padding: 5%;
+    position: relative;
+}
 
 
-
-#allContent {
+/* #allContent {
     display: flex;
     width: 90%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
