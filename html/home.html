@@ -15,6 +15,9 @@
         href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Harmattan:wght@400;500;600;700&display=swap"
         rel="stylesheet">
         <link rel="icon" href="../logo.png" type="image/x-icon">
+        <!-- Usage Data -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 
     <!-- تضمين مكتبة html2canvas -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -31,6 +34,7 @@
     <script type="module" src="../js/canvas.-3d.js"></script>
     <script type="module" src="../js/change-pass-name.js"></script>
     <script type="module" src="../js/delelet-all.js"></script>
+    <script type="module" src="../js/usageDatabase.js"></script>
 
 </head>
 
@@ -99,6 +103,7 @@
                 <div class="ShowSales" id="ShowSales"></div>
                 <div class="full-report" id="fullReport"></div>
                 <div id="deleteData"></div>
+                <div id="usageDatabase"></div>
                 <canvas id="networkCanvas"></canvas>
              </div>
         </section>
@@ -117,11 +122,11 @@
 
    // إعدادات Firebase
    const firebaseConfig = {
-       apiKey: "AIzaSyDfdJOe80UAwfJFZUgtmHj7TVqSAiCnnAQ",
+    apiKey: "AIzaSyDfdJOe80UAwfJFZUgtmHj7TVqSAiCnnAQ",
   authDomain: "systemcasher-33c06.firebaseapp.com",
+databaseURL: "https://systemcasher-33c06-default-rtdb.firebaseio.com",
   projectId: "systemcasher-33c06",
   storageBucket: "systemcasher-33c06.appspot.com",
-databaseURL: "https://systemcasher-33c06-default-rtdb.firebaseio.com",
   messagingSenderId: "161097570896",
   appId: "1:161097570896:web:1b587b0c4e8bac3f378f55"
 };
