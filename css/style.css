@@ -128,15 +128,7 @@ aside {
      /* background: aqua; */
 
 }
-section {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    row-gap: 50px;
-    /* background-color: var(--subColor); */
-    padding: 5%;
-    position: relative;
-}
+
 footer {
     width: 100%;
     padding: 100px 0;
