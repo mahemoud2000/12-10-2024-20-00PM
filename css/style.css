@@ -128,7 +128,20 @@ aside {
      /* background: aqua; */
 
 }
-
+section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 50px;
+    /* background-color: var(--subColor); */
+    padding: 5%;
+    position: relative;
+    flex-direction: column;
+}
+#usageDatabase {
+    width: 200px;
+    z-index: 100;
+}
 footer {
     width: 100%;
     padding: 100px 0;
@@ -483,15 +496,7 @@ button:hover {
     display: none;
 }
 
-section {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    row-gap: 50px;
-    /* background-color: var(--subColor); */
-    padding: 5%;
-    position: relative;
-}
+
 
 
 /* #allContent {
