@@ -16,7 +16,8 @@
             box-sizing: border-box;
         }
 
-        body {
+     
+/*         body { 
             font-family: 'Poppins', sans-serif;
             background-color: #000;
             display: flex;
@@ -134,7 +135,6 @@
     transform: translatex(-20%);
     width: 60vw;
     z-index: 1;
-    /* transform: scale(2.5); */
 }
 
 #networkCanvas {
@@ -147,10 +147,30 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        */
+        h2 {
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: arial;
+        }
+        p {
+            color: green;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: arial;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <h2>تمت انتهاء المدة الخاصة بنظامك</h2>
+    <p>يمكنك التواصل مع الدعم الخاص لنظامك </p>
+<!--     old page start -->
+<!--     <div class="container">
         <form id="loginForm">
             <h1>ZenCode</h1>
             <div class="name">
@@ -169,12 +189,12 @@
         </p>
         <div id="loginMessage" style="display: none;"></div>
     </div>
-
+ -->
     <!-- لودر -->
-    <div class="loader" id="loader"></div>
-    <canvas id="networkCanvas"></canvas>
-    <script src="js/canvas.-3d.js"></script>
-    <script>
+<!--     <div class="loader" id="loader"></div>
+    <canvas id="networkCanvas"></canvas> -->
+<!--     <script src="js/canvas.-3d.js"></script> -->
+<!--     <script>
         // إعداد Firebase
         const firebaseConfig = {
             // apiKey: "AIzaSyCPpTAJDRfFuDkq2TGCVIU_LnmYRBXTnSc",
@@ -235,5 +255,7 @@ databaseURL: "https://systemcasher-33c06-default-rtdb.firebaseio.com",
                 });
         });
     </script>
+     -->
+    <!--     old page end -->
 </body>
 </html>
